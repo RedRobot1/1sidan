@@ -1,1 +1,7 @@
-body { background-color: darkblue; font-family: Arial; } h1 { color: white; }
+body {
+    background-image: url("Tyreso_centrum_by_night.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
