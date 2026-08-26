@@ -1,8 +1,10 @@
 html, body {
-    height: 100%;
     margin: 0;
+    min-height: 100vh;
 }
+
 body {
+    min-height: 100vh;
     background-color: darkblue;
     background-image: url("Tyreso_centrum_by_night.jpg");
     background-size: cover;
@@ -10,4 +12,11 @@ body {
     background-repeat: no-repeat;
     font-family: Arial;
     color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 60px;
 }
