@@ -1,11 +1,13 @@
-html { margin: 0; }
+html {
+    margin: 0;
+}
 
 body {
     margin: 0;
     height: 400px;
     background-color: darkblue;
     background-image: url("Tyreso_centrum_by_night.jpg");
-    background-size: 100px;
+    background-size: 100% auto;
     background-position: top center;
     background-repeat: no-repeat;
     font-family: Arial;
@@ -18,4 +20,10 @@ body {
     padding-top: 60px;
 }
 
-h1 { font-size: 2.5rem; } p { font-size: 1.3rem; }
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
