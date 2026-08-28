@@ -2,7 +2,6 @@ html, body {
     margin: 0;
     min-height: 100vh;
 }
-
 body {
     background-color: darkblue;
     font-family: Arial;
@@ -10,32 +9,39 @@ body {
     text-align: center;
     padding: 40px 20px;
 }
-
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 30px;
-    max-width: 1000px;
-    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
 }
-
 .side-images {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .side-images img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
 }
-
 .content {
     flex: 1;
     max-width: 400px;
 }
+h1 { font-size: 2.5rem; }
+p { font-size: 1.3rem; }
 
-h1 { font-size: 2.5rem; } p { font-size: 1.3rem; }
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: orange;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
